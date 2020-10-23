@@ -48,7 +48,6 @@ transition: border .5s;
 
 input:focus {
 border: 2px solid #3498DB;
-box-shadow: none;
 }
 
 .btn {
@@ -61,11 +60,9 @@ box-shadow: none;
   text-decoration: none;
   text-shadow: none;
   border-radius: 3px;
-  box-shadow: none;
   transition: 0.25s;
   display: block;
   width: 250px;
-  margin: 0 auto;
 }
 
 .btn:hover {
@@ -87,7 +84,6 @@ box-shadow: none;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
   visibility: hidden;
-  opacity: 0;
 }
 .overlay:target {
   visibility: visible;
@@ -112,7 +108,6 @@ box-shadow: none;
   transition: 0.25s;
   display: block;
   width: 250px;
-  margin: 0 auto;
 }
             </style>
     </head>   
